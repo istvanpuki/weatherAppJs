@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  outline: none;
+  text-decoration: none;
+  font-family: inherit;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ol, ul, li {
+  list-style: none;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+a img {
+  border: none;
+}
+
+textarea {
+  resize: none;
+}
+
+/*
+  button,
+  input,
+  textarea,
+  select{appearance: none !important; border-radius: 0;}
+  */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body #root {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #0a7092;
+}
+
+body .inputField {
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #127fa3;
+}
+
+body input {
+  text-align: center;
+}
+
+body input[type="text"] {
+  height: 50px;
+  width: 60vw;
+  color: white;
+  background: #0094C6;
+}
+
+body input::-webkit-input-placeholder {
+  color: white;
+}
+
+body input:-ms-input-placeholder {
+  color: white;
+}
+
+body input::-ms-input-placeholder {
+  color: white;
+}
+
+body input::placeholder {
+  color: white;
+}
+
+body button {
+  width: 10vw;
+  height: 50px;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  background-color: #0094C6;
+}
+
+body .result {
+  width: 80vw;
+  height: 40vh;
+  margin-top: 10px;
+  background-color: #127fa3;
+}
+/*# sourceMappingURL=style.css.map */
